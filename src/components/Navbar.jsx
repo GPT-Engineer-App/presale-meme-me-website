@@ -20,7 +20,12 @@ const Navbar = () => {
               Purchase History
             </Button>
           </Link>
-          <Button onClick={toggleColorMode} size={"sm"}>
+          <Link to="/contact">
+            <Button variant={"solid"} colorScheme={"teal"} size={"sm"} mr={4}>
+              Contact
+            </Button>
+          </Link>
+          <Button onClick={toggleColorMode} size={"sm"} mr={4}>
             Toggle {useColorModeValue("Dark", "Light")}
           </Button>
         </Flex>
