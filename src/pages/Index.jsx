@@ -42,7 +42,7 @@ const Index = () => {
         </Heading>
         <Image src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjcnlwdG9jdXJyZW5jeXxlbnwwfHx8fDE3MTczNDAwODd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Cryptocurrency" boxSize="200px" />
         <Text fontSize="xl" textAlign="center" mb={4}>
-          Join the Meme Me ICO presale and be a part of the next big thing in the crypto world! Current ETH price: ${ethPrice} USD
+          Join the Meme Me ICO presale and be a part of the next big thing in the crypto world! Total supply: 1,000,000 MEME tokens. Current ETH price: ${ethPrice} USD
         </Text>
         <Box width="100%">
           <HStack spacing={4}>
